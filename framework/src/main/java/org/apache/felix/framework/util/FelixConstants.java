@@ -75,20 +75,3 @@ public interface FelixConstants extends org.osgi.framework.Constants
     String FRAMEWORK_UUID_SECURE = "felix.uuid.secure";
     String CALCULATE_SYSTEMPACKAGES_USES = "felix.systempackages.calculate.uses";
 }
-
-    String RESOLUTION_DYNAMIC = "dynamic";
-
-    // Start level-related constants.
-    int FRAMEWORK_INACTIVE_STARTLEVEL = 0;
-    int FRAMEWORK_DEFAULT_STARTLEVEL = 1;
-    int SYSTEMBUNDLE_DEFAULT_STARTLEVEL = 0;
-    int BUNDLE_DEFAULT_STARTLEVEL = 1;
-
-    // Miscellaneous properties values.
-    String FAKE_URL_PROTOCOL_VALUE = "location:";
-    String FELIX_EXTENSION_ACTIVATOR = "Felix-Activator";
-    String SECURITY_DEFAULT_POLICY = "felix.security.defaultpolicy";
-    String FELIX_EXTENSIONS_DISABLE = "felix.extensions.disable";
-    String FRAMEWORK_UUID_SECURE = "felix.uuid.secure";
-    String CALCULATE_SYSTEMPACKAGES_USES = "felix.systempackages.calculate.uses";
-}
